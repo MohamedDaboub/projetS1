@@ -85,3 +85,7 @@ figcaption{
   border: 3px var(--couleur--bleu-claire) solid;
 }
 
+.img_fun{
+  margin-top: -606px;
+}
+

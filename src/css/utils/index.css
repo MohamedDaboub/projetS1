@@ -91,3 +91,9 @@
 .up2{
     right: 200px;
 }
+
+/*fun*/
+.img--click2{
+    visibility: hidden;
+    z-index: 1;
+}

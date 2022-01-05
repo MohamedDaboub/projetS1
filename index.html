@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = 'stylesheet' href = 'src/css/style.css'>
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+	<script src="https://animejs.com/lib/anime.min.js"></script>
+	<script src="src/js/fonctions.js"></script>
     <link rel="icon" type="image/svg" sizes="16x16" href="public/icon/image-4.svg">
     <title>Green panther - Découvre un super-héros unique…</title>
 </head>
@@ -27,10 +30,13 @@
             <img class="logo" src="public/icon/image-4.svg" alt="Logo_du_site">  
         </a>   
     </header>
-    <main>
+    <main x-data="{firstImgClick : false}" :class="firstImgClick && 'img--click'">
         <div>
             <h1 >Accueil</h1>
-            <img src="public/img/Composant-12.webp" alt="Image de black panther en wakanda">
+            <img @click="firstImgClick = !firstImgClick"
+            :class="firstImgClick && 'img--click'" src="public/img/Composant-12.webp" alt="Image de black panther en wakanda">
+            <img class="img_fun" @click="firstImgClick = !firstImgClick"
+            :class="firstImgClick && 'img--click2'" src="public/img/bp-combat2.webp" alt="">
         </div>
         <div class="index-sec">
             <p ><strong class="qest">Les nouvelles technologies sont-elles vraiment nos amis ?</strong></p>
