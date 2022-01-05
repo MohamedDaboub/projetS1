@@ -1,0 +1,13 @@
+header {
+    background-color: var(--couleur-typo--blanc);
+    display: flex;
+    border: 2px var(--bleu-outremer) solid;
+    gap: 80px;
+}
+.titre__site{
+    margin-top: 20px;
+}
+.logo{
+    margin-right: 0px;
+    margin-top: 10px;
+}
