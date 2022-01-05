@@ -3,6 +3,7 @@ header {
     display: flex;
     border: 2px var(--bleu-outremer) solid;
     gap: 80px;
+    padding-left: 80px;
 }
 .titre__site{
     margin-top: 20px;

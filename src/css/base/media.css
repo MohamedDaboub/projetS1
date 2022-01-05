@@ -1,0 +1,87 @@
+img {
+  max-width: 100%;
+  height: auto;
+  }
+figure {
+    margin: 0;
+}
+.images9{
+  max-width: 93%;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  padding-top: 20px;
+}
+.fig9{
+  margin: 0 0.85rem;
+}
+.fig91{
+  margin: 0 1rem;
+  text-align: center;
+  display: block;
+}
+.images8{
+  max-width: 85%;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  padding-top: 20px;
+}
+.fig8{
+  margin: 0 1.65rem;
+}
+figcaption{
+  font-size: var(--typographie--sall-text);
+}
+.images7{
+  max-width: 70%;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  padding-top: 20px;
+}
+.fig7{
+  margin: 0 3.3rem;
+}
+.coleur{
+  background-color: var(--couleur---blanc-crème);
+}
+.imges5{
+  max-width: 50%;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.fig5{
+  background-color: var(--couleur--blanc);
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+.pad_up{
+  margin-top: 50px;
+}
+.pad_up1{
+  margin-top: 30px;
+}
+.pad_up2{
+  margin: 15px 25px 15px 19px;
+}
+.pad_down{
+  margin-bottom: 50px;
+}
+.dwon{
+  margin-top: -15px;
+}
+.dwon2{
+  margin-bottom: 2.188rem;
+}
+.dwon1{
+  margin-top: -35px;
+}
+.bor_img{
+  border: 3px var(--couleur--bleu-claire) solid;
+}
+

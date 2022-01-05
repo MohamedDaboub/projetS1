@@ -1,0 +1,29 @@
+:root{
+    /* Color styles */
+--bleu-outremer: rgba(87, 86, 111, 1);
+--couleur-typo--violet-claire: rgba(192, 184, 222, 1);
+--couleur-typo--violet: rgba(171, 169, 217, 1);
+--couleur-typo---noir: rgba(0, 0, 0, 1);
+--couleur-typo--blanc: rgba(255, 255, 255, 1);
+--couleur-typo---gris-quartz: rgba(112, 112, 112, 1);
+--couleur--khaki: rgba(166, 133, 104, 1);
+--couleur--violet-tres-claire: rgba(211, 210, 235, 1);
+--couleur---noir: rgba(0, 0, 0, 1);
+--couleur--bleu-claire: rgba(171, 210, 244, 1);
+--couleur--blanc: rgba(255, 255, 255, 1);
+--couleur---blanc-crème: rgba(253, 253, 241, 1);
+--couleur--marron-clair: rgba(203, 184, 167, 1);
+
+/* Text-size styles */
+/* base size: typographie--menu (16px) */
+--typographie--menu: 1rem;
+--typographie--body: 0.94rem;
+--typographie---heading-1: 1.16rem;
+--typographie---heading-2: 1.12rem;
+--typographie--sall-text: 0.81rem;
+--typographie--button: 0.94rem;
+--typographie--tweet: 1.12rem;
+--typographie--galerie: 0.75rem;
+--typographie--intro: 1.12rem;
+--typographie--footer: 0.875rem
+}
