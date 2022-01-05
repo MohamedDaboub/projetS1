@@ -1,76 +1,4 @@
-/* .toggle{
-  position: relative;
-  width: 50px;
-  height: 0px;
-  background-color: #000000;
-  margin-right: 20px;
-  cursor: pointer;
-  z-index: 10;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.toggle::before{
-  content: '';
-  position: absolute;
-  width: 28px;
-  height: 3px;
-  background-color: white;
-  border: 2px black solid;
-  border-radius: 20px;
-  transform: translateY(17px);
-  transition: 0.5s;
-}
-.toggle.active::before{
-  margin-top: 45px;
-  transform: translateY(0) rotate(45deg);
-}
-.toggle::after{
-  content: '';
-  position: absolute;
-  width: 28px;
-  height: 3px;
-  background-color: white;
-  border: 2px black solid;
-  border-radius: 20px;
-  transform: translateY(35px);
-  transition: 0.5s;
-}
-.toggle.active::after{
-  margin-top: 45px;
-  transform: translateY(0) rotate(-45deg);
-}
-.navigation{
-  position: fixed;
-  z-index: 9;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height:100vh ;
-  background-color: tomato ;
-  background-position: right;
-  background-size: cover;
-  display: none;
-  padding-right: 100px ;
-}
-.navigation.active{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.navigation li{
-  list-style: none;
-  margin: 4px 0;
-}
-.navigation li a{
-  color: #000;
-  font-size: 2rem;
-  letter-spacing: 0.05rem;
-  text-decoration: none;
-  font-weight: 400;
-  text-transform: capitalize;
-} */
+
 .nav-toggle {
   width: 2rem;
   height: 2rem;
@@ -80,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 2;
+  z-index: 6;
   
 }
 
@@ -149,7 +77,11 @@
     text-align: center;
     transform: translateX(100vw);
     transition: all .4s;
-    z-index: 1;
+    z-index: 5;
+    background-image: url('../../../public/img/bp-1.webp');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 30%;
 }
 
 .menu-open .menu {
@@ -164,8 +96,9 @@
     list-style: none;
     margin: 00;
     padding: 0;
-    font-size: 1.625rem;
-    text-transform: uppercase;
+    font-size: var(--typographie--button);
+    text-transform: capitalize;
+    color: var(--couleur---noir);
     margin: 10px;
 }
 .menu li {
@@ -181,4 +114,7 @@
 .menu-open .menu li {
     transform: translateX(0);
     opacity: 1;
+}
+.image_menu{
+  max-width: 20%;
 }

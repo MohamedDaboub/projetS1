@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = 'stylesheet' href = 'src/css/style.css'>
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+	<script src="https://animejs.com/lib/anime.min.js"></script>
+	<script src="src/js/fonctions.js"></script>
+    <link rel="icon" type="image/svg" sizes="16x16" href="public/icon/image-4.svg">
     <title>Green panther - Découvre un super-héros unique…</title>
 </head>
 <body>
@@ -20,7 +24,7 @@
                 <li><a href="solutions.html">Des solutions ?</a></li>
                 <li><a href="a-propos.html">À propos</a></li>
             </ul>
-            <img class="img" src="public/img/bp-1.webp" alt="Image de black">
+            
         </nav>   
         <a href="index.html" ><img class="titre__site" src="public/icon/titre-3.svg" alt="titre du site"></a>
         <a href="index.html">
@@ -30,10 +34,12 @@
     <main>
         <div>
             <h1>Découvre un super-héros unique …</h1>
-            <figure>
+            <figure class="image image13"
+            x-on:mouseover="monterLegende('cap1');"
+            x-on:mouseleave="descendreLegende()">
                 <img class="images8" src="public/img/portrait.webp" alt="image de Black Panther
                 avec son case a la main">
-                <figcaption class="fig8">Source : Google image, image de Black Panther
+                <figcaption class="fig8 texte13 cap1">Source : Google image, image de Black Panther
                     avec son case a la main</figcaption>
             </figure>
             <p class="art_st">C’est l’acteur Chadwick Boseman qui incarne le
@@ -63,10 +69,12 @@
                 film offre une nouvelle vision du monde. Nous 
                 sommes plongés dans un autre univers,
                 différent des autres marvel.</p>
-                <figure>
+                <figure class="image image13"
+                x-on:mouseover="monterLegende('cap2');"
+                x-on:mouseleave="descendreLegende()">
                     <img class="images8" src="public/img/BP_dessin2.webp" alt=" image dessinée représentant Black
                     Panther et ses deux alliées ainsi que son cousin">
-                    <figcaption class="fig8">Source : Pinterest, image dessinée représentant Black
+                    <figcaption class="fig8 texte13 cap2">Source : Pinterest, image dessinée représentant Black
                         Panther et ses deux alliées ainsi que son cousin.</figcaption>
                 </figure>
             </div>
@@ -130,10 +138,12 @@
             </div>
         </section>
         <section>
-            <figure>
+            <figure class="image image13"
+            x-on:mouseover="monterLegende('cap3');"
+            x-on:mouseleave="descendreLegende()">
                 <img class="images7 pad_up" src="public/img/bp-combat2.webp" alt="image de Black Panther
                 en position d’attaque">
-                <figcaption class="fig7">Source : Pinterest, image de Black Panther
+                <figcaption class="fig7 texte13 cap3">Source : Pinterest, image de Black Panther
                     en position d’attaque</figcaption>
             </figure>
             <h2>Des technologies incroyables</h2>
@@ -163,10 +173,12 @@
                     spectre pepper du 19e siècle (=illusion
                     d’optique).»</p>
             </div>
-            <figure>
+            <figure class="image image13"
+            x-on:mouseover="monterLegende('cap4');"
+            x-on:mouseleave="descendreLegende()">
                 <img class="images9" src="public/img/wakanda_vue_de_haut2.webp" alt=" image montant le Wakanda au loin
                 et au premier plan silhouette Black Panther sur un rocher">
-                <figcaption class="fig9">Source : Google image, image montant le Wakanda au loin
+                <figcaption class="fig9 texte13 cap4">Source : Google image, image montant le Wakanda au loin
                     et au premier plan silhouette Black Panther sur un rocher.</figcaption>
             </figure>
         </section>
