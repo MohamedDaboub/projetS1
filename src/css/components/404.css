@@ -1,3 +1,6 @@
+.couleur__404{
+    background-color: var(--couleur--bleu-claire);
+}
 .btn {
     background-color: var(--couleur-typo--violet);
     padding: 30px 61px;
@@ -14,6 +17,29 @@
     margin: 35px;
 }
 .errore404__research {
-    padding: 7vh;
-    background-color: var(--orange);
+    padding: 80px;
+    background-color: var(--couleur-typo--violet);
+}
+.errore404__entrer {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    background-color: var(--couleur--blanc);
+    color: black;
+}
+.errore404__requete {
+    color: var(--couleur--blanc);
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2rem;
+    text-shadow: black 1px 0 10px;
+}
+.errore404__button {
+    font-size: var(--typographie--button);
+    color: white;
+    background-color: var(--couleur--bleu-claire);
+    padding: 2vh 3vh;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 35px;
 }
