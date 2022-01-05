@@ -13,3 +13,7 @@
     color: var(--couleur-typo---noir);
     margin: 35px;
 }
+.errore404__research {
+    padding: 7vh;
+    background-color: var(--orange);
+}
