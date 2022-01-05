@@ -1,0 +1,47 @@
+.index-sec{
+    background-image: url("../../../public/img/fond.webp");
+    width: 100%;
+    height: 100%;
+    padding-bottom: 6rem;
+}
+.qest{
+    font-size: var(--typographie--intro);
+    text-align: center;
+    margin: auto;
+    display: flex;
+    font-weight: 900;
+    padding-top: 30px;
+}
+.tweet{
+    background-color: var(--couleur--blanc);
+    border: 4px var(--couleur--khaki) solid ;
+    margin-bottom: 30px;
+    margin: 20px 20px;
+}
+.tweet__art{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    font-size:var(--typographie--tweet) ;
+    padding: 28px;
+    color: var(--couleur-typo---noir);
+}
+.tweet_sav{
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: var(--couleur-typo--violet);
+}
+.index_pro{
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: var(--couleur-typo---noir);
+    padding: -10px;
+}
+.tweet1{
+    background-color: var(--couleur--blanc);
+    border: 4px var(--couleur--khaki) solid ;
+    margin-bottom: 30px;
+    margin: 0px 20px; 
+}
