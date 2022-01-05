@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = 'stylesheet' href = 'src/css/style.css'>
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+	<script src="https://animejs.com/lib/anime.min.js"></script>
+	<script src="src/js/fonctions.js"></script>
     <title>Green panther - Un problème écologique qui te concerne !</title>
 </head>
 <body>
@@ -29,28 +32,41 @@
     </header>
     <main>
         <h1>Un problème écologique qui te concerne !</h1>
-            <figure>
-				<img id="img1" class="image155" src="./public/img/centre-ville-Wakanda2-1.webp"/>
-                <figcaption>Source : Wakanda</figcaption>
-            </figure>
+		<div class="exemples carrousel">
+			<div class="droite155">&nbsp;</div>
+			<div class="carrousel5">
+				<div class="images155">
+					<img id="img1" class="image155" src="./public/img/centre-ville-Wakanda2-1.webp"/>
+					<img id="img2" class="image155" src="./public/img/wired-marvel-studios-city-from-above.webp"/>
+					<img id="img3" class="image155" src="./public/img/mail.webp"/>
+					<img id="img4" class="image155" src="./public/img/datacenter.webp"/>
+					<img id="img5" class="image155" src="./public/img/explication-data-center.webp"/>
+				</div>
+			</div>
+		</div>
+		<script>
+			
+			carrousel5Images();
+			
+		</script>
         <section>
             <h2>Le Wakanda</h2>
             <div>
-                <p >Rappelons que ce pays associe une
+                <p class="text_col">Rappelons que ce pays associe une
                     technologie très développé et une tradition
                     très formelle. Le Wakanda représente l’hyper
                     modernité. Il apparaît donc comme un modèle
                     écologique. Cela nous rappel les grandes 
                     capitales du monde qui sont extrêmement
                     développées également.</p>
-                <p >Et si on a l’habitude d’observer un
+                <p class="text_col">Et si on a l’habitude d’observer un
                     développement important en Asie. Cette fois 
                     ci c’est en Afrique qu'il domine. Nous pouvons 
                     remarquer qu’il est tout aussi impressionnant,
                     si ce n’est plus.</p>
             </div>
             <div>
-                <p >Son incroyable développement vient d’une
+                <p class="text_nor">Son incroyable développement vient d’une
                     ressource unique, présente à aucun autre
                     endroit du monde. Toute sa technologie
                     provient du vibranium. C’est un élément
@@ -64,16 +80,19 @@
                     su développer une technologie unique. Ils sont
                     donc les premiers mondiaux
                     technologiquement.</p>
-                <figure>
-                    <img  src="public/img/wired-marvel-studios-city-from-above.webp" alt="">
-                    <figcaption >Source : Google image, image du vaisseau de Black
-                        Pantherau dessus du Wakanda</figcaption>
-                </figure>
+                <div class="visionneuse">
+                    <figure class="image image13"
+                    x-on:mouseover="monterLegende();"
+                    x-on:mouseleave="descendreLegende()">
+                        <img class="images9" src="public/img/wired-marvel-studios-city-from-above.webp" alt="">
+                        <figcaption class="fig9 texte13">Source : Google image, image du vaisseau de Black
+                            Pantherau dessus du Wakanda</figcaption>
+                    </figure>
             </div>
         </section>
         <section>
             <h2>Et dans la réalité ?</h2>
-            <p >Imaginez vous, vivre au Wakanda… Ou plutôt si
+            <p class="text_nor dwon">Imaginez vous, vivre au Wakanda… Ou plutôt si
                 notre monde était identique au Wakanda.
                 Souvent on pense que la technologie est
                 bonne pour l’environnement. Enfin que le
@@ -83,33 +102,35 @@
                 une feuille de papier pour le poster. Mais 
                 connaissez vous l’empreinte carbone d’un
                 mai ? </p>
-            <p >Dans le monde, chaque heure, 12 milliards de
+            <p class="text_nor">Dans le monde, chaque heure, 12 milliards de
                 mails sont envoyés. Ils émettent 50 Giga Watt
                 Heure c’est la production électrique de 18
                 centrales nucléaires durant une heure. Les 
                 mails les plus envoyés contiennent une pièce
                 jointe de 1 Mo. Ils produisent donc 19 grammes 
                 de CO2. C’est l’équivalent d’une ampoule</p>
-            <div >    
-                <figure 
-                >
-                    <img  src="public/img/mail.webp" alt="">
-                    <figcaption >Source : Google image, image de mains sur un clavier qui
+            <div class="visionneuse">    
+                <figure class="image image13"
+                x-on:mouseover="monterLegende();"
+                x-on:mouseleave="descendreLegende()">
+                    <img class="images9 dwon1 " src="public/img/mail.webp" alt="">
+                    <figcaption class="fig9 texte13">Source : Google image, image de mains sur un clavier qui
                     avec des petites enveloppes qui représentent les mails</figcaption>                
                 </figure>
+            </div>
         </section>
         <section>
             <h2>Les problèmes de la pollution numérique</h2>
             <div>
-                <p >Ils ne sont pas la seule cause des émissions 
+                <p class="text_col">Ils ne sont pas la seule cause des émissions 
                     de CO2 dans le monde numérique.</p>
-                <p >La pollution digitale malgré qu’invisible, est
+                <p class="text_col">La pollution digitale malgré qu’invisible, est
                     bien présente. Et elle a un impact carbone très 
                     important. De plus le secteur du numérique
                     est un secteur qui produit plusieurs type de
                     pollution.</p>
-                <p >La production des équipements informatiques </p>
-                <p >Et Notre utilisation du web et des ordinateurs 
+                <p class="text_col mar">La production des équipements informatiques </p>
+                <p class="text_col ">Et Notre utilisation du web et des ordinateurs 
                     cré de la pollution en effet “notre
                     consommation d’Internet en un an est
                     responsable de l’émission de 2 % des gaz à
@@ -138,14 +159,18 @@
                     exploiter des données. Il passe pas un
                     intermédiaire, souvent internet.</p>
             </div>
-            <figure>
-                <img  src="public/img/datacenter.webp" alt="">
-                <figcaption >source : Google image, image présentant un datacenter</figcaption>                
-            </figure>
+            <div class="visionneuse">
+                <figure class="image image13"
+                x-on:mouseover="monterLegende();"
+                x-on:mouseleave="descendreLegende()">
+                    <img class="images9 pad_up1" src="public/img/datacenter.webp" alt="">
+                    <figcaption class="fig9 texte13">source : Google image, image présentant un datacenter</figcaption>                
+                </figure>
+            </div>
         </section>
         <section>
             <h2>L’impact des internautes</h2>
-            <p >Les internautes émettent également du CO2.
+            <p class="text_nor">Les internautes émettent également du CO2.
                 Ils sont responsable à 50% des émissions de
                 gaz à effet de serre d’internet. Mais le nombre
                 d’internaute ne fait qu’augmenter. Les 
@@ -156,58 +181,31 @@
                 avec un trajet en avion. En effet 140 requêtes 
                 google correspondent à l’émission de CO2 de
                 1000 aller retour Paris New York.</p>
-            <p >Si internet était un pays, ce serait le plus gros 
+            <p class="text_nor">Si internet était un pays, ce serait le plus gros 
                 consommateur d’électricité du monde ! En
                 totalité le numérique consomme 10 à 15 % de
                 l’électricité mondiale. C’est l’équivalent de 100
                 réacteurs nucléaires. Il faut savoir que cette
                 consommation double tous les 4 ans…</p>
-            <figure>
-                <img  src="public/img/explication-data-center.webp" alt="">
-                <figcaption >source : Google image, image présentant un datacenter</figcaption>                
-            </figure>
+            <div class="visionneuse">
+                <figure class="image image13"
+                x-on:mouseover="monterLegende();"
+                x-on:mouseleave="descendreLegende()">
+                    <img class="images9 bor_img" src="public/img/explication-data-center.webp" alt="">
+                    <figcaption class="fig9 texte13">source : Google image, image présentant un datacenter</figcaption>                
+                </figure>
+            </div>
         </section>
         <section>
-            <h2 >Des nombres pour la pollution
+            <h2 class="mar_titre">Des nombres pour la pollution
                 numérique</h2>
-            <p >Il ne faut pas sous-estimer la pollution
+            <p class="text_nor">Il ne faut pas sous-estimer la pollution
                 numérique comme vous allez le voir en lisant
                 les chiffres suivants :
                 </p>
         </section>
-        <div >
-            <p>10% :
-                part de
-                l’électricité
-                consommée par
-                les data centers 
-                en France</p>
-            <p>7g :
-                production de
-                CO2 d’une
-                recherche
-                google</p>
-            <p>80% :
-                part des mails 
-                qui ne sont
-                jamais ouvert</p>
-            <p>10 milliards :
-                nombre total
-                d’emails 
-                envoyés en une
-                heure =
-                correspond à
-                4 000 tonnes 
-                de pétrole
-                </p>
-            <p>126 813 600
-                milliards :
-                représente par
-                heure, le
-                nombre de
-                bouteilles d’un 
-                litre rempli de
-                CO2</p>
+        <div  >
+
         </div>
     </main>
     <footer>
