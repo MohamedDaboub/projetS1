@@ -37,10 +37,10 @@ function carrousel5Images() {
     });
 	
 }
-function monterLegende() {
-    document.querySelector('.texte13').style.display = 'block';
+function monterLegende(cla) {
+    document.querySelector('.'+cla).style.display = 'block';
     return anime({
-        targets:'.texte13',
+        targets:'.'+cla,
         translateY: '-3.7em',
         autoplay:false,
         easing:'linear',

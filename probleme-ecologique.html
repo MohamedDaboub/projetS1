@@ -19,7 +19,7 @@
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="decouvre-un-super-heros.html">Découvre un super-héros unique…</a></li>
-                <li><a href="probléme-écologique.html">Un problème écologique qui te concerne !</a></li>
+                <li><a href="probleme-ecologique.html">Un problème écologique qui te concerne !</a></li>
                 <li><a href="solutions.html">Des solutions ?</a></li>
                 <li><a href="a-propos.html">À propos</a></li>
             </ul>
@@ -49,11 +49,15 @@
 			carrousel5Images();
 			
 		</script>
-        <figure>
-            <img src="public/img/centre-ville-Wakanda2-1.webp" alt="image de la vile du Wakanda">
-            <figcaption>Source : Google image, image de la vile du Wakanda
-            </figcaption>
-        </figure>
+        <div class="visionneuse">
+            <figure class="image image13"
+            x-on:mouseover="monterLegende();"
+            x-on:mouseleave="descendreLegende()">
+                <img class="images9" src="public/img/centre-ville-Wakanda2-1.webp" alt="image de la vile du Wakanda">
+                <figcaption class="fig9 texte13 ">Source : Google image, image de la vile du Wakanda
+                </figcaption>
+            </figure>
+        </div>
         <section>
             <h2>Le Wakanda</h2>
             <div>
@@ -117,11 +121,11 @@
                 de CO2. C’est l’équivalent d’une ampoule</p>
             <div class="visionneuse">    
                 <figure class="image image13"
-                x-on:mouseover="monterLegende();"
+                x-on:mouseover="monterLegende('cap9');"
                 x-on:mouseleave="descendreLegende()">
                     <img class="images9 dwon1 " src="public/img/mail.webp" alt="image de mains sur un clavier qui
                     avec des petites enveloppes qui représentent les mails">
-                    <figcaption class="fig9 texte13">Source : Google image, image de mains sur un clavier qui
+                    <figcaption class="fig9 texte13 cap9">Source : Google image, image de mains sur un clavier qui
                     avec des petites enveloppes qui représentent les mails</figcaption>                
                 </figure>
             </div>
@@ -168,10 +172,10 @@
             </div>
             <div class="visionneuse">
                 <figure class="image image13"
-                x-on:mouseover="monterLegende();"
+                x-on:mouseover="monterLegende('cap10');"
                 x-on:mouseleave="descendreLegende()">
                     <img class="images9 pad_up1" src="public/img/datacenter.webp" alt="image présentant un datacenter">
-                    <figcaption class="fig9 texte13">source : Google image, image présentant un datacenter</figcaption>                
+                    <figcaption class="fig9 texte13 cap10">source : Google image, image présentant un datacenter</figcaption>                
                 </figure>
             </div>
         </section>
