@@ -30,7 +30,12 @@
         <section>
             <h2 class="erroe404">Désolé,
                 Cette page n’existe pas/plus (erreur 404).
-                Rendez-vous sur l’une de nos autres pages pour poursuivre votre visite.</h2>  
+                Rendez-vous sur l’une de nos autres pages pour poursuivre votre visite.</h2> 
+                <form class=".errore404__research" action="https://www.google.fr/" method="GET" x-data="{ q:'', }" x-on:submit="q = q + ' https://blackpanther.daboub.fr/'">
+                    <label class="errore404__requete" for="q">Que recherchez-vous ?</label>
+                        <input class="errore404__entrer" type="text" id="q" name="q" x-model="q">
+                    <button class="errore404__button" type="submit">Rechercher</button>
+                </form> 
                 <a class="btn" href="/index.html">Retour a l'Accueil</a>     
                 <a class="btn" href="http://mmimontbeliard.com/">Département MMI</a>    
         </section>
