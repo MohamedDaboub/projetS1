@@ -1,0 +1,17 @@
+.btn{
+    background-color: var(--couleur-typo--violet);
+    padding: 15px 60px;
+    border-radius: 20px;
+    font-size:var(--typographie--button);
+    text-align: center;
+    display: block;
+    margin-bottom:10%;
+    margin-left:40%;
+    margin-right:40%;
+    text-decoration: none;
+    color: var(--couleur-typo---noir);
+}
+.erroe404{
+    color: var(--couleur-typo---noir);
+    margin: 150px;
+}
